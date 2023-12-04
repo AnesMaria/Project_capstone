@@ -8,7 +8,7 @@ Educational institutions often face challenges in identifying students who requi
 
 # Dataset
 The dataset used in this project includes various student performance metrics from a high school. It contains both demographic and academic performance data points.
-The list of colomns :  'school', 'sex', 'age', 'address', 'famsize', 'Pstatus', 'Medu', 'Fedu',        'Mjob', 'Fjob', 'reason', 'guardian', 'traveltime', 'studytime',
+The detailed list of colomns :  'school', 'sex', 'age', 'address', 'famsize', 'Pstatus', 'Medu', 'Fedu',        'Mjob', 'Fjob', 'reason', 'guardian', 'traveltime', 'studytime',
        'failures', 'schoolsup', 'famsup', 'paid', 'activities', 'nursery', 'higher', 'internet', 'romantic', 'famrel', 'freetime', 'goout', 'Dalc',        'Walc', 'health', 'absences', 'passed'
 
 # Technologies Used
