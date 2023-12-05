@@ -1,14 +1,13 @@
 # Project_capstone : Building a Student Intervention System
 
 # Introduction
-This project is focused on the development of a Student Intervention System using machine learning techniques. The goal is to identify students who might need early intervention before they fail to graduate.
-
+The goal of this project is to use machine learning techniques to develop a student intervention system. selecting students who are susceptible to benefiting from early intervention before they drop out of school is the purpose.
 # Project Overview
-Educational institutions often face challenges in identifying students who require intervention to improve their academic performance. This project aims to build a predictive model that can flag students at risk of not completing their course.
+The identification of students who need intervention to improve their academic performance is a problem that educational institutions frequently face. The goal of this project is to develop a predictive model that can identify students who may dropout.
 
 # Dataset
-The dataset used in this project includes various student performance metrics from a high school. It contains both demographic and academic performance data points.
-The detailed list of colomns :  'school', 'sex', 'age', 'address', 'famsize', 'Pstatus', 'Medu', 'Fedu',        'Mjob', 'Fjob', 'reason', 'guardian', 'traveltime', 'studytime',
+This project's dataset contains a variety of information based  on academic achievement as well as demographics and familial profil and relationshep.
+The detailed list of colomns is :  'school', 'sex', 'age', 'address', 'famsize', 'Pstatus', 'Medu', 'Fedu',        'Mjob', 'Fjob', 'reason', 'guardian', 'traveltime', 'studytime',
        'failures', 'schoolsup', 'famsup', 'paid', 'activities', 'nursery', 'higher', 'internet', 'romantic', 'famrel', 'freetime', 'goout', 'Dalc',        'Walc', 'health', 'absences', 'passed'
 
 # Technologies Used
@@ -19,11 +18,11 @@ Jupyter Notebook
 
 # Models Evaluated
 Decision Tree Classifier
-Support Vector Machine (SVM)
+Support Vector Machine (SVM/SVC)
 Random Forest Classifier
 
 # Model Selection and Evaluation
-After an exploratory data analysis and preprocessing phase, we trained and evaluated the three models. Each model was assessed based on the F1 score, considering both training and testing datasets to ensure a robust evaluation.
+We trained and evaluated the three models following a preprocessing and exploratory data analysis stage. In order to ensure an accurate evaluation, each model was evaluated using the F1 score while taking into account the training and testing datasets.
 
 # Optimizing the Best Model
 The model with the highest F1 score on the testing dataset was selected. We performed grid search optimization to fine-tune the model parameters, aiming to improve the performance further.
@@ -31,14 +30,9 @@ The model with the highest F1 score on the testing dataset was selected. We perf
 # Results
 The final tuned model showed improved F1 scores, indicating better performance in identifying students who require intervention.
 
-# How to Run
-Clone this repository.
-Install required dependencies.
-Run the Jupyter Notebook for a detailed walkthrough.
-
 # Conclusions
-This project demonstrates the potential of machine learning in the educational field, providing a tool to help educators and administrators make data-driven decisions for student success.
+This project illustrates how machine learning can be used in education by giving administrators and teachers a tool to use when making data-driven decisions that will most effectively meet students' needs.
 
 # Future Work
-Integration with real-time educational data systems.
-Exploration of more advanced models and feature engineering techniques.
+Integration with real-time educational data systems and on line learning platforme to prevent the droping out school.
+Exploration of more advanced models in the deep learning domain . 
