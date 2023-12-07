@@ -32,7 +32,8 @@ The final tuned model showed improved F1 scores, indicating better performance i
 
 # Conclusions
 This project illustrates how machine learning can be used in education by giving administrators and teachers a tool to use when making data-driven decisions that will most effectively meet students' needs.
-link to the Blog : https://medium.com/p/4ca9cadf3ced/edit
+
+Link to the Blog : https://medium.com/p/4ca9cadf3ced/edit
 
 # Future Work
 Integration with real-time educational data systems and on line learning platforme to prevent the droping out school.
